@@ -19,7 +19,7 @@ const App = () => {
   return (
    <>
     <div className="p-[362px] bg-red-600 text-center text-white ">
-      <h1 className='text-center text-5xl tracking-widest'>Web Flix</h1>
+      <h1 className='text-center text-5xl tracking-widest'>NETFLIX</h1>
     </div>
    </>
   )
