@@ -11,7 +11,7 @@ import React from 'react'
 //     <div className="-mt-[88px] bg-green-200">
 //       <div>HELLO</div>
 //     </div>
-//    </>.git
+//    </>
 //   )
 // }
 
@@ -19,10 +19,11 @@ const App = () => {
   return (
    <>
     <div className="p-[362px] bg-red-600 text-center text-white ">
-      <h1 className='text-center text-5xl tracking-widest'>NETFLIX</h1>
+      <h1 className='text-center text-5xl tracking-widest'>web</h1>
     </div>
    </>
   )
 }
 
-export default App                                              
+export default App 
+                                             
