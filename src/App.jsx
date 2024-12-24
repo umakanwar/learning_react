@@ -71,7 +71,7 @@ import React from 'react'
       <ul className='gap-7 flex justify-center [&>*]:text-white font-bold text-xl'>
         <li className='cursor-pointer '>Home</li>
         <li className='cursor-pointer '>About</li>
-        <li className='cursor-pointer '>Contact</li>
+        <li className='cursor-pointer '>Contract</li>
       </ul>
     </div>
     </div>
