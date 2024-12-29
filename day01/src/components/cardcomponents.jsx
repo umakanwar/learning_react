@@ -1,29 +1,24 @@
 import React from "react";
+import products from "../utility/data";
 
-const CardComponent = ({ contacts }) => {
+const CardComponent = ({ items }) => {
     return (
         <>
-            {contacts.map((product) => (
-                <div className="w-[21rem] h-[32rem] bg-gradient-to-r from-yellow-600 to-blue-900 m-10 rounded-2xl">
-                    <h1 className="text-center text-white text-2xl p-6">
-                        Product Listing
-                    </h1>
-                    <img
-                        className="w-82 mb-3 bg-contain"
-                        src={product.image}
-                        alt="img.jpg"
-                    />
-                    <p className="text-center text-white mb-3">{product.productdesc}</p>
-                    <div className="flex space-x-10 p-7">
-                        <button className="rounded-2xl w-[140px] h-18 bg-green-500 p-7 text-center text-white text-2xl">
-                            Add
-                        </button>
-                        <button className="rounded-2xl w-[140px] h-18 bg-red-600 p-7 text-center text-white text-2xl">
-                            Remove
-                        </button>
+           {items.map((items)=>(
+            <div className=" w-72 m-2 p-4 h-[600px] bg-green-200 rounded-xl shadow-xl shadow-blue-500">
+                <h1 className="m-2 text-centre text-black font-serif font-bold text-2xl">
+                    {items.name}
+                </h1>
+                <img className="h-72 mx-auto rounded-xl w-60 bg-contain shadow-lg shadow-blue-500" src={items.image}
+                alt="Img" />
+                <p className=" mx-3 my-4 text-black ">{items.productdesc}</p>
+                <div className=" flex justify-between m-1">
+                    <button className="bg-green-500 p-2 w-[155px] rounded-xl">Add</button>
+                    <button className="bg-red-600 p-2 rounded-xl">Remove</button>                
                     </div>
-                </div>
-            ))}
+            </div>
+           ))}
+
         </>
     );
 };

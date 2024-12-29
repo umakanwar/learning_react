@@ -3,7 +3,7 @@ const products = [
       id: 1,
       name: "Laptop",
       price: 75000,
-      productdesc: "This is a laptop with a 15.6 inch screen and 8GB of RAM",
+      productdesc: "A sleek, high-performance laptop with cutting-edge specs, ideal for work, gaming, and everyday use.",
       image:
         "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1771&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
@@ -14,7 +14,7 @@ const products = [
       image:
         "https://plus.unsplash.com/premium_photo-1679513691474-73102089c117?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aGVhZHBob25lfGVufDB8fDB8fHww",
       productdesc:
-        "This is a pair of headphones with a 3.5mm jack and a 1 year warranty.",
+      "Headphones delivering exceptional sound quality, comfort, and immersive audio for all-day listening.",
     },
     {
       id: 3,
@@ -22,7 +22,8 @@ const products = [
       price: 50000,
       image:
         "https://images.unsplash.com/photo-1610792516775-01de03eae630?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      productdesc: "This is a smartphone with a 6.1 inch screen and 12GB of RAM.",
+      productdesc: 
+      "A stylish, feature-packed smartphone offering seamless performance, and exceptional battery life.",
     },
     {
       id: 4,
@@ -30,24 +31,7 @@ const products = [
       price: 30000,
       image:
         "https://images.unsplash.com/photo-1464380573004-8ca85a08751a?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      productdesc: "This is a tablet with a 10.1 inch screen and 4GB of RAM",
-    },
-    {
-      id: 5,
-      name: "Smartwatch",
-      price: 15000,
-      image:
-        "https://plus.unsplash.com/premium_photo-1680985551009-05107cd2752c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8c21hcnRwaG9uZXxlbnwwfHwwfHx8MA%3D%3D",
-      productdesc: "This is a smartwatch with a 1.3 inch screen and 1GB of RAM",
-    },
-    {
-      id: 6,
-      name: "Gaming Console",
-      price: 25000,
-      image:
-        "https://images.unsplash.com/photo-1580234797602-22c37b2a6230?q=80&w=1767&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      productdesc:
-        "This is a gaming console with a 4K resolution and 16GB of RAM",
-    },
+      productdesc: "A versatile, lightweight tablet with powerful features, perfect for entertainment, productivity, and on-the-go use.",
+    }
   ];
   export default products;
