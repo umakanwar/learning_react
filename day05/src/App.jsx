@@ -1,11 +1,11 @@
 import React from 'react'
-import productdata from './utility/data'
+// import categories from './utility/data'
+// import CardComponents from './components/CardComponents'
 
-const App = () => {
+function App() {
   return (
-    <div>
-        
-    </div>
+    <div></div>
+
   )
 }
 
