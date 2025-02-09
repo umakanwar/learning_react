@@ -1,0 +1,23 @@
+form attributes:
+
+Type : type of the data(text,email, number,password,file,checkbox,radio,url,date,month,date-time-local,tel)
+name:name of variable
+placeholder:
+minlength:minimum length of string
+maxlength:max length of string
+autocomplete:
+Classname:
+disabled: disable user interaction
+required: 
+Id:
+Value:
+multiple:for more than one 1 files
+checked:for default selecting (readonly to make it fixed)
+step:
+autoFocus:
+spellcheck:
+
+
+Text:text,password(hidden text)
+file:use multiple for more than one file 
+
